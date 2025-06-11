@@ -1,3 +1,5 @@
 @echo off
 
-python gui2.py
+set "PYTHON_SCRIPT=%SCRIPT_DIR%\gui2.py"
+
+python "PYTHON_SCRIPT"
